@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY First DAPP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="main">
+        <div id="container">
+            <h1>GET/SET your mood</h1>
+            <div id="subdiv">
+                <div id="input">
+                    <label for="mood">Input Mood:</label>
+                    <input type="text" name="" id="mood">
+                </div>
+                <br>
+                <div id="buttondiv">
+                    <button onclick="getMood()">Get Mood</button>
+                    <button onclick="setMood()">Set Mood</button>
+                </div>
+                <p id="showmood"></p>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="module" src="script.js"></script>
+</html>
